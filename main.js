@@ -14,3 +14,10 @@ $('.bxslider').bxSlider({
   slideWidth: 400,
   responsive: true
 });
+
+  $(function () {
+        $('.slider-area').bxSlider({
+          mode: 'fade',
+          slideWidth: 400
+        });
+      });
