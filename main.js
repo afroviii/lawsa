@@ -11,13 +11,14 @@ $('.bxslider').bxSlider({
   autoControls: true,
   stopAutoOnClick: true,
   pager: true,
-  slideWidth: 400,
+  
   responsive: true
 });
 
   $(function () {
         $('.slider-area').bxSlider({
           mode: 'fade',
-          slideWidth: 400
+          slideWidth: 700,
+          pager: false
         });
       });
