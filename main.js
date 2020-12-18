@@ -14,11 +14,11 @@ $('.bxslider').bxSlider({
   
   responsive: true
 });
-
+/*
   $(function () {
         $('.slider-area').bxSlider({
           mode: 'fade',
           slideWidth: 700,
           pager: false
         });
-      });
+      }); */

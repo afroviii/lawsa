@@ -236,6 +236,7 @@
     cursor: pointer;
     margin-right: 10px;
     background: #fdfbfb;
+    opacity: .9;
   }
 
   .nav-list {

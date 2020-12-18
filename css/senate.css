@@ -54,6 +54,10 @@
     
   }
 
+  .logo img:hover {
+    text-decoration: none;
+  }
+
   .logo img {
     width: 60px;
     height: 60px;
@@ -129,15 +133,12 @@
     border-bottom: 0.5px solid #eee;
   } 
 
-  .w_25p  {
-    font-size: 15px;
-    
-    
-  }
+
 
   .w_25p a {
     color: rgb(122, 120, 120);
     text-align: center;
+    font-size: 16px;
     
   }
 
@@ -174,6 +175,8 @@
   .page-heading {
     padding-bottom: 10px;
     padding-top: 5px;
+    margin: 15px 0;
+    margin-top: 25px; 
   }
 
   .p {
@@ -201,7 +204,7 @@
   }
 
   .p-card {
-    background-color: #e9eaec;
+    background-color: #e9eaec ;
   }
 
 
@@ -217,7 +220,7 @@
     justify-content: center;
     align-items: center;
     margin: 30px;
-    width: 280px;
+    width: 230px;
   }
 
  
@@ -231,6 +234,7 @@
   .p-image img {
     transition: transform .5s ease-in-out;
     -webkit-transition: transform .5s ease-in-out;
+    width: 230px;
   }
 
   
@@ -242,8 +246,7 @@
 
   .caption {
     position: absolute;
-    margin: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
     font-size: 16px;
     padding: 10px;
     background-color: #63666d;
@@ -251,30 +254,32 @@
   }
 
   .p-content {
-    padding: 10px;
-    padding-top: 3px;
-  }
-
-
-  .p-content {
+    padding: 10px 0px 35px 10px;
     align-self: flex-start;
+    
   }
+
 
   .p-contact i {
     font-size: 30px;
     color: honeydew;
+    
   }
 
   .p-content h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
 
   .p-content h6 {
     font-size: 14px;
+    font-weight: 800;
   }
 
-
+  .p-contact {
+    
+    margin-bottom: 5px;
+  }
 
 
   /* breakpoint */
@@ -310,7 +315,7 @@
   .menu-icon  {
     display: unset;
     color: #212530;
-    font-size: 3rem;
+    font-size: 3.1rem;
     cursor: pointer;
   }
 
@@ -321,15 +326,16 @@
 
   .close  {
     display: unset;
-    color: #0b2e8b;
-    font-size: 3.7rem;
+    color: #212530;
+    font-size: 3rem;
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
     padding: 10px 15px;
     cursor: pointer;
     margin-right: 10px;
-    background: rgb(197, 186, 186);
+    background: #f0f0f0;
+    opacity: .9;
   }
 
   .nav-list {
@@ -390,8 +396,8 @@
     justify-content: space-between;
   }
 
-  .w_25p {
-    font-size: 12px;
+  .w_25p a {
+    font-size: 13px;
   }
 
   .list-tabs li a {
@@ -419,5 +425,12 @@
     margin-top: 70px;
   }
   
+ /* judiciary style */
+
+ 
+
+
+
+
 
   }
