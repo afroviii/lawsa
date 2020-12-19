@@ -69,6 +69,11 @@
     font-family: 'Raleway', sans-serif;
   }
 
+  .nav-brand a:hover {
+    text-decoration: none;
+  }
+
+
   .w-90 {
     max-width: 85%;
     margin-left: auto;
@@ -149,8 +154,9 @@
     border-left: none;
   }
 
-  .list-tabs a:hover {
+  .list-tabs li a:hover {
     background-color: #7e8597;
+    text-decoration: none;
   }
 
 
@@ -282,8 +288,9 @@
     background: #f0f0f0;
   }
 
-  .nav-item a:hover {
+  .nav-list li a:hover {
     opacity: 0.5;
+    text-decoration: none;
   }
 
   .w-90 {
@@ -307,6 +314,10 @@
     color: rgb(5, 5, 5);
   }
 
+  .list-tabs li a:hover {
+    background: none;
+    text-decoration: none;
+  }
 
   .about-p {
     font-size: 14px;
